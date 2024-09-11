@@ -1,0 +1,151 @@
+/* Web font inclusion */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 250px;
+    background-color: #7ae26e;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #daff46;
+    color: black;
+    border-bottom: 4px solid #f9aa33;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #002147;
+}
+
+
+.info-table, .connect-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.info-table th, .info-table td, .connect-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+.info-table th {
+    background-color: #f9aa33;
+    color: white;
+}
+
+.connect-table td a {
+    text-decoration: none;
+    color: #949fff;
+}
+
+.connect-table td a:hover {
+    color: #f9aa33;
+}
+
+
+.services-list {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.services-list li {
+    margin: 10px 0;
+}
+
+.promo-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #daff46;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 4px solid #f9aa33;
+}
+
+footer h2{
+    color: #37310d
+}
+
+h2::before {
+    content: "❖ ";
+    color: #f9aa33;
+}
+
+
+a:hover {
+    color: #f9aa33;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table td, table th {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #daff46;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #002147;
+    color: #daff46;
+    border-radius: 4px;
+}
